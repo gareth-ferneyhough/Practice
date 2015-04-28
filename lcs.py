@@ -1,3 +1,4 @@
+# Longest common subsequence using dynamic programming
 def lcs(N, M):
     # creates M*N matrix
     lcs = [[0 for i in range(len(N) + 1)] for j in range(len(M) + 1)]
